@@ -20,7 +20,7 @@ contactForm.addEventListener('click',(e)=>{
     }
     console.log(formData)
     let xhr =new XMLHttpRequest();
-    xhr.open('POST','https://creatoverse.herokuapp.com/contact');
+    xhr.open('POST','https://creatorverse.in/contact-us.html');
     xhr.setRequestHeader('content-type','application/json');
     xhr.onload = function(){
         console.log(xhr.responseText);
